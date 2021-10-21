@@ -1,0 +1,71 @@
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+.bg-login {
+	background-image: linear-gradient(to right, #070c1f, #16296d);
+}
+
+.bg-card-login {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.in-card {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.input-login {
+	border-radius: 8px;
+	background-color: #E6E6E6;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+	width: 100%;
+}
+.input-login:focus{
+	background-color: #c6d472cb;
+}
+
+.form-label {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+}
+.btn-login{
+	border-radius: 20px;
+	font-weight: 500;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+}
+
+.login-title {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 50px;
+}
+a.text-forgot-login {
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+span.text-forgot-login {
+	color: #1FCC44;
+}
+a.text-createaccount {
+	color: #1FCC44;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+.text-forgot {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: grey;
+	margin-bottom: 50px;
+	margin-top: 25px;
+}

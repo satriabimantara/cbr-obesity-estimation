@@ -1,0 +1,1 @@
+Pada folder models ini untuk tempat dimana kita bisa mendapatkan data-data yang dibutuhkan nantinya. Data ini bisa didapatkan dari query database maupun dari API dan lainnya.

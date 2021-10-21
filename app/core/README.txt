@@ -1,0 +1,1 @@
+Folder core akan menjadi folder inti dari aplikasi MVC
