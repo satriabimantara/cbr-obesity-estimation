@@ -8,6 +8,10 @@ class App
     public function __construct()
     {
         $url = $this->parseURL();
+
+        if (is_null($url)) {
+            $url = [$this->controller_default, $this->method_default];
+        }
         // Controller
         if (file_exists('../app/controllers/' . $url[0] . '.php')) {
             $this->controller_default = $url[0];

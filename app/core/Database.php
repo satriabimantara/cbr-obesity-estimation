@@ -6,6 +6,7 @@ class Database
     private $db_user = DB_USER;
     private $db_pass = DB_PASS;
     private $db_name = DB_NAME;
+    private $db_port = DB_PORT;
 
     private $dbh; //database handler
     private $stmt; //statement query
@@ -14,7 +15,7 @@ class Database
     {
         // Setiap instansiasi lakukan koneksi ke database dahulu
         // data source name
-        $dsn = 'mysql:host=' . $this->db_host . ';dbname=' . $this->db_name;
+        $dsn = 'mysql:host=' . $this->db_host . ';dbname=' . $this->db_name . ';port=' . $this->db_port;
         // Option
         $option = [
             PDO::ATTR_PERSISTENT => true,
